@@ -1,0 +1,948 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: #cccccc;
+  position: relative;
+}
+
+.myItRoadBody{
+  color: rgb(53,53,53)
+}
+
+.myItRoaH3{
+  padding-top: 0.25em;
+  font-size: 22px;
+  
+}
+.myItRoaDescription{
+  font-size: 12px !important;
+}
+
+.myItRoaH5{
+  padding-top: 0.25em;
+  font-size: 15px;
+}
+.button {
+  text-decoration: none;
+  padding: 0.5em 0.5em;
+  margin-top: 100px !important;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px !important;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+.date{
+  color:#cccccc;
+margin-right: 1.5em;
+  margin-left: 1em;
+}
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(19, 18, 18, 0.25),
+    0 0.4em 1.25em 0 rgba(241, 239, 239, 0.15) !important;
+  padding: 1,5em 3em !important;
+  border-top:6px solid orange;
+
+}
+.bg{
+  background-color: #282c34;
+}
+
+/* .vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+} */
+
+
+body {
+  background-color: #282c34;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+}
+
+
+.Navbar {
+  margin-top: 30px;
+}
+
+.navBarPosition {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 9999999 !important;
+  background: #282c34 !important;
+}
+
+.orange {
+  color: orange;
+}
+
+.logo {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.nav-link {
+  letter-spacing: 0.5px;
+  font-size: 0.85em;
+
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+/* STACK TECHNOLOGU CSS */
+.img_stack {
+  height: 30px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.img_stack_horizontal {
+  height: 30px;
+  margin: 15px;
+  cursor: pointer;
+
+}
+
+.img_stack_horizonta:hover {
+  color: red;
+
+}
+
+.con_hor {
+  text-align: center;
+}
+
+
+
+.img_stack_up {
+  height: 40px;
+  padding-bottom: 5px;
+}
+
+.img_stack_ex {
+  height: 35px;
+  padding-bottom: 5px;
+}
+
+.socialContainer {
+  position: fixed;
+  right: 70px;
+  bottom: 10px;
+}
+
+.stackContainer {
+  position: fixed;
+  left: 70px;
+  bottom: 10px;
+}
+
+.containerText {
+  justify-content: center !important;
+  padding-left: 80px !important;
+  text-align: left;
+  width: 100%;
+}
+
+.containerTextExpirance {
+  justify-content: center !important;
+  padding-left: 80px !important;
+  text-align: left;
+  width: 100%;
+  padding-top: calc(11vh + 170px);
+  min-height: 80vh;
+}
+
+.containerTextInsaid {
+  justify-content: center !important;
+  padding-left: 80px !important;
+  text-align: left;
+  width: 100%;
+  padding-top: calc(15vh + 100px);
+  min-height: 100vh;
+
+}
+
+
+.containerTextEducation {
+  justify-content: center !important;
+  padding-left: 80px !important;
+  text-align: left;
+  width: 100%;
+  padding-top: calc(15vh + 100px) !important;
+  min-height: 100vh !important;
+}
+
+.containerTextAboutMe {
+  justify-content: center !important;
+  padding-left: 80px !important;
+  text-align: left;
+  width: 100%;
+  padding-top: calc(6vh + 100px) !important;
+  min-height: 100vh !important;
+
+}
+
+.stickyPosition {
+  position: -webkit-sticky !important;
+  position: fixed !important;
+
+  width: 100%;
+  z-index: 9999999;
+  background: #282c34;
+}
+
+.containerTextContact {
+  justify-content: center !important;
+  padding-left: 80px !important;
+  text-align: center;
+  width: 100%;
+  padding-top: calc(25vh + 70px);
+  min-height: 100vh;
+}
+
+.pulse {
+  animation: backInDown;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+  animation-delay: 0s;
+
+}
+.menuRight{
+  justify-content: right;
+}
+
+
+
+.hi {
+  padding-bottom: 0px;
+  padding-top: 10vh;
+  position: relative;
+  font-size: 0.8em;
+  animation-name: hiRun;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes hiRun {
+  0% {
+    left: -400px
+  }
+
+  75% {
+    left: 25px
+  }
+
+  100% {
+    left: 0px
+  }
+}
+
+.about {
+  position: relative;
+  animation-name: aboutRun;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes aboutRun {
+  from {
+    top: -100px;
+    opacity: 0
+  }
+
+  to {
+    top: 0px;
+    opacity: 1
+  }
+}
+
+.course {
+  position: relative;
+  animation-name: courseRun;
+  animation-delay: 0s;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes courseRun {
+  from {
+    top: -100px;
+    opacity: 0
+  }
+
+  to {
+    top: 0px;
+    opacity: 1
+  }
+}
+
+.projects {
+  position: relative;
+  animation-name: projectsRun;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+@keyframes projectsRun {
+  from {
+    top: -100px;
+    opacity: 0
+  }
+
+  to {
+    top: 0px;
+    opacity: 1
+  }
+}
+
+.expirance {
+  position: relative;
+  animation-name: expiranceRun;
+  animation-delay: 0s;
+  animation-duration: 1.1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes expiranceRun {
+  from {
+    top: -100px;
+    opacity: 0
+  }
+
+  to {
+    top: 0px;
+    opacity: 1
+  }
+}
+
+.contact {
+  position: relative;
+  animation-name: contactRun;
+  animation-delay: 0s;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes contactRun {
+
+  0% {
+    top: -100px;
+    opacity: 0
+  }
+
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+
+}
+
+
+@keyframes opacityRun {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.conProject {
+  padding-top: calc(10vh + 50px) !important;
+  padding-left: 10px !important;
+}
+
+.name {
+  color: white;
+  font-size: 3.5em;
+  font-weight: 700;
+  position: relative;
+  animation-name: opacityRun;
+  animation-delay: 0.2s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+.mainStack {
+  position: relative;
+  animation-name: opacityRun;
+  animation-delay: 0.2s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+/* About Me sction-------------------------------------------------------- */
+
+hr {
+  border: 1px solid #cccccc;
+  display: inline-block;
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.aboutMe {
+  display: flex;
+
+}
+
+Table,
+th,
+tr,
+td {
+  color: #cccccc;
+}
+
+Table {
+  width: 50%;
+}
+
+.carouselBox {
+  border: 0px solid red;
+  display: inline-flexbox;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.caruselOne {
+  display: inline-block;
+  border: 0px solid red;
+  justify-content: center;
+}
+
+.caruselTwo {
+  text-align: left;
+  display: inline-block;
+  border: 0px solid red;
+  width: 50%;
+  padding-top: 10px;
+
+}
+
+.btn {
+  font-size: 1em;
+  padding-top: 5px !important;
+  margin-top: 5px !important;
+}
+
+.textTop {
+  padding-top: 10px;
+}
+
+.imgCarusel {
+  border: 0px solid red;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./img/patrycjaMockup.png);
+  width: 600px;
+  height: 339px;
+  display: content;
+}
+
+.patrycjaImg {
+
+  border: 0px solid red;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./img/patrycjaMockup.png);
+  width: 600px;
+  height: 339px;
+  display: content;
+}
+
+
+
+.bootImg {
+
+  border: 0px solid red;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./img/bigMockuapBoot.png);
+  width: 600px;
+  height: 339px;
+  display: content;
+}
+.crudImg {
+
+  border: 0px solid red;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./img/bigMockuapCrud.png);
+  width: 600px;
+  height: 339px;
+  display: content;
+}
+
+.sassImg {
+
+  border: 0px solid red;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./img/bigMockuapSass.png);
+  width: 600px;
+  height: 339px;
+  display: content;
+}
+
+.stoOsiemImg {
+
+  border: 0px solid red;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./img/bigMockuap108.png);
+  width: 600px;
+  height: 339px;
+  display: content;
+}
+
+.krzysiekImg {
+
+  border: 0px solid red;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./img/bigMockuapKrzysiek.png);
+  width: 600px;
+  height: 339px;
+  display: content;
+}
+
+
+
+
+.contactDown {
+  padding-top: 5vh;
+  ;
+}
+
+.aboutOne {
+  position: relative;
+  animation-name: opacityRun;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  border: 0px solid #cccccc;
+  width: 80%;
+}
+
+.aboutTwo {
+  position: relative;
+  animation-name: opacityRun;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  border: 0px solid #cccccc;
+  width: 20%;
+}
+
+.stackText2 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.stackText {
+  padding-left: 5px;
+  width: 30%;
+  text-align: left !important;
+  display: inline-block
+}
+
+.titlle {
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.5px;
+  padding-left: 10px;
+  border: 0px solid #cccccc;
+
+}
+
+.img01 {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #cccccc;
+  border-radius: 25px;
+}
+
+.img01:hover {
+  border: 2px solid orange;
+}
+
+
+.textAboutMe {
+  margin-bottom: 0px;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  padding: 20px !important;
+  color: #cccccc;
+  width: 100%;
+  text-align: left;
+
+}
+
+.bor{
+  border: 1px solid red;
+}
+
+.left{
+  justify-content:right !important;
+}
+.textUp{
+  text-transform: uppercase;
+}
+
+.show{
+  display: flex;
+}
+.hidden{
+  display: none;
+}
+
+
+.pStack {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 0.9em;
+  padding-left: 80px !important;
+  color: #cccccc;
+  width: 80%;
+  text-align: justify;
+  position: relative;
+  animation-name: opacityRun;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+.fullStack {
+  color: #cccccc;
+  font-size: 2.7em;
+  font-weight: 700;
+  position: relative;
+  animation-name: opacityRun;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+.nav {
+  color: #cccccc !important;
+  position: sticky;
+
+
+}
+.left{
+  justify-content:center !important;
+}
+
+.active {
+  background-color: #282c34 !important;
+
+}
+
+.nav-link:active {
+  color: orange;
+}
+
+.nav-link {
+  color: orange;
+}
+.nav {
+  width: fit-content;
+  font-size: 1em !important;
+}
+
+.nav-link:hover {
+  color: #cccccc !important;
+  transition: 0ms !important;
+}
+
+.inDown {
+  padding-top: 25px !important;
+}
+
+p {
+  margin-bottom: 0px;
+  padding-top: 0px;
+
+}
+
+.getCenter {
+  text-align: center;
+}
+
+
+.stackAboutMe {
+  text-align: left !important;
+  padding-top: 25px;
+  width: 80%;
+}
+@media all and (max-width:1200px){
+  .date{
+    color:#282c34;
+  
+  margin-left: 0em;
+  }
+}
+@media all and (max-width: 600px) {
+  .imgCarusel {
+    width: 100%;
+  }
+
+.date{
+  color:#282c34;
+  margin-right: 0;
+  margin-left: 0em;
+}
+  .caruselTwo {
+    text-align: left;
+    width: 100%;
+
+  }
+  .menuRight{
+    justify-content: center;
+  }
+
+  Table {
+    width: 150%;
+    text-align: left;
+  }
+
+  td {
+    width: 50%;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  .nav-link {
+    font-size: 1em;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .App-header {
+    margin-top: 0px;
+  }
+
+  .fullStack {
+    font-size: 0.95em;
+    width: 100%;
+    margin: 0px 0px;
+    padding-bottom: 30px !important;
+    border: 0px solid #cccccc;
+  }
+
+
+
+  .App {
+    padding-top: 0px !important;
+  }
+
+  .name {
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px !important;
+    border: 0px solid #cccccc;
+  }
+
+  .stackContainer {
+    display: none;
+  }
+
+  .hi {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+    font-size: 0.7em;
+    border: 0px solid #cccccc;
+  }
+
+  .pStack {
+    font-size: 0.7em;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 15px !important;
+    width: 80%;
+    text-align: left !important;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    text-align: justify;
+  }
+
+  .containerText {
+    padding-left: 10px !important;
+    padding-top: 0vh;
+
+  }
+
+  .heartBeat {
+    padding-top: 5vh;
+  }
+
+  .socialContainer {
+    right: 10px;
+  }
+
+  .aboutTwo {
+    display: none;
+  }
+
+  .aboutOne {
+    width: 100%;
+    padding-right: 55px;
+  }
+
+  .stackText {
+    font-size: 1em;
+    text-align: center;
+    width: 50%;
+  }
+
+  .container {
+    padding-left: 0px;
+  }
+
+  .textAboutMe {
+    font-size: 0.75em;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 20px !important;
+    text-align: left !important;
+    margin-bottom: 20px;
+
+  }
+
+  .img01 {
+    float: inline-end;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+
+  .containerTextExpirance,
+  .containerTextEducation,
+  .containerTextAboutMe,
+  .containerTextContact {
+    padding-left: 10px !important;
+    padding-top: calc(1vh + 100px) !important;
+
+  }
+
+
+
+  .containerTextInsaid {
+    padding-left: 10px !important;
+    padding-top: calc(1vh + 100px) !important;
+
+  }
+
+  .about,
+  .course,
+  .projects,
+  .expirance,
+  .contact {
+    animation-name: null;
+  }
+
+
+  .img_stack_horizontal {
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+
+  }
+  .stoOsiemImg {
+    border: 0px solid red;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./img/smallMockuap108.png);
+    width: 230px;
+    height: 160px;
+    display: content;
+  }
+  .sassImg {
+    border: 0px solid red;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./img/smallMockuapSass.png);
+    width: 230px;
+    height: 160px;
+    display: content;
+  }
+
+
+  .bootImg {
+    border: 0px solid red;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./img/smallMockuapBoot.png);
+    width: 230px;
+    height: 160px;
+    display: content;
+  }
+
+  .patrycjaImg {
+    border: 0px solid red;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./img/patrycjaMockupSmall.png);
+    width: 230px;
+    height: 160px;
+    display: content;
+  }
+  .crudImg {
+    border: 0px solid red;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./img/smallMockuapCrud.png);
+    width: 230px;
+    height: 160px;
+    display: content;
+  }
+  .krzysiekImg {
+    border: 0px solid red;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./img/smallMockuapKrzysiek.png);
+    width: 230px;
+    height: 160px;
+    display: content;
+  }
+
+
+  .stackAboutMe {
+    text-align: left !important;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+}
