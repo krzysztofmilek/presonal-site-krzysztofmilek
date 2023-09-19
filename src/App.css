@@ -6,20 +6,23 @@
   position: relative;
 }
 
-.myItRoadBody{
-  color: rgb(53,53,53)
+.myItRoadBody {
+  color: rgb(53, 53, 53);
 }
 
-.myItRoaH3{
+.myItRoaH3 {
   padding-top: 0.25em;
   font-size: 22px;
-  
 }
-.myItRoaDescription{
+.myItRoaDescription {
   font-size: 12px !important;
 }
+.myItRoaH3 {
+  padding-top: 0.25em;
+  font-size: 16px;
+}
 
-.myItRoaH5{
+.myItRoaH5 {
   padding-top: 0.25em;
   font-size: 15px;
 }
@@ -47,19 +50,18 @@
 .schoolButton:hover {
   background-color: #f3bc3c;
 }
-.date{
-  color:#cccccc;
-margin-right: 1.5em;
+.date {
+  color: #cccccc;
+  margin-right: 1.5em;
   margin-left: 1em;
 }
 .vertical-timeline-element-content {
   box-shadow: 0 0.25em 0.5em 0 rgba(19, 18, 18, 0.25),
     0 0.4em 1.25em 0 rgba(241, 239, 239, 0.15) !important;
-  padding: 1,5em 3em !important;
-  border-top:6px solid orange;
-
+  padding: 1, 5em 3em !important;
+  border-top: 6px solid orange;
 }
-.bg{
+.bg {
   background-color: #282c34;
 }
 
@@ -69,13 +71,11 @@ margin-right: 1.5em;
   padding: 2em 3em !important;
 } */
 
-
 body {
   background-color: #282c34;
   font-family: "Poppins";
   letter-spacing: 0.5px;
 }
-
 
 .Navbar {
   margin-top: 30px;
@@ -101,7 +101,6 @@ body {
 .nav-link {
   letter-spacing: 0.5px;
   font-size: 0.85em;
-
 }
 
 .nav-link:hover {
@@ -110,28 +109,25 @@ body {
 
 /* STACK TECHNOLOGU CSS */
 .img_stack {
-  height: 30px;
-  padding-bottom: 5px;
+  height: 35px;
+  padding-bottom: 0px;
   cursor: pointer;
 }
+
 
 .img_stack_horizontal {
   height: 30px;
   margin: 15px;
   cursor: pointer;
-
 }
 
 .img_stack_horizonta:hover {
   color: red;
-
 }
 
 .con_hor {
   text-align: center;
 }
-
-
 
 .img_stack_up {
   height: 40px;
@@ -178,9 +174,7 @@ body {
   width: 100%;
   padding-top: calc(15vh + 100px);
   min-height: 100vh;
-
 }
-
 
 .containerTextEducation {
   justify-content: center !important;
@@ -198,7 +192,6 @@ body {
   width: 100%;
   padding-top: calc(6vh + 100px) !important;
   min-height: 100vh !important;
-
 }
 
 .stickyPosition {
@@ -225,13 +218,10 @@ body {
   animation-duration: 2s;
   /* don't forget to set a duration! */
   animation-delay: 0s;
-
 }
-.menuRight{
+.menuRight {
   justify-content: right;
 }
-
-
 
 .hi {
   padding-bottom: 0px;
@@ -245,15 +235,15 @@ body {
 
 @keyframes hiRun {
   0% {
-    left: -400px
+    left: -400px;
   }
 
   75% {
-    left: 25px
+    left: 25px;
   }
 
   100% {
-    left: 0px
+    left: 0px;
   }
 }
 
@@ -264,15 +254,17 @@ body {
   animation-timing-function: ease-in-out;
 }
 
+.akapit { text-indent: 20px; }
+
 @keyframes aboutRun {
   from {
     top: -100px;
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     top: 0px;
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -287,12 +279,12 @@ body {
 @keyframes courseRun {
   from {
     top: -100px;
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     top: 0px;
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -306,12 +298,12 @@ body {
 @keyframes projectsRun {
   from {
     top: -100px;
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     top: 0px;
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -326,12 +318,12 @@ body {
 @keyframes expiranceRun {
   from {
     top: -100px;
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     top: 0px;
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -344,33 +336,34 @@ body {
 }
 
 @keyframes contactRun {
-
   0% {
     top: -100px;
-    opacity: 0
+    opacity: 0;
   }
 
   100% {
     top: 0px;
     opacity: 1;
   }
-
 }
-
 
 @keyframes opacityRun {
   from {
-    opacity: 0
+    opacity: 0;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 .conProject {
   padding-top: calc(10vh + 50px) !important;
   padding-left: 10px !important;
+}
+.txtItRoad {
+  font-weight: 400 !important;
+  font-size: 14px !important;
 }
 
 .name {
@@ -404,7 +397,6 @@ hr {
 
 .aboutMe {
   display: flex;
-
 }
 
 Table,
@@ -423,7 +415,6 @@ Table {
   display: inline-flexbox;
   justify-content: center;
   text-align: center;
-
 }
 
 .caruselOne {
@@ -438,7 +429,6 @@ Table {
   border: 0px solid red;
   width: 50%;
   padding-top: 10px;
-
 }
 
 .btn {
@@ -462,7 +452,6 @@ Table {
 }
 
 .patrycjaImg {
-
   border: 0px solid red;
   justify-content: center;
   text-align: center;
@@ -472,10 +461,7 @@ Table {
   display: content;
 }
 
-
-
 .bootImg {
-
   border: 0px solid red;
   justify-content: center;
   text-align: center;
@@ -485,7 +471,6 @@ Table {
   display: content;
 }
 .crudImg {
-
   border: 0px solid red;
   justify-content: center;
   text-align: center;
@@ -496,7 +481,6 @@ Table {
 }
 
 .sassImg {
-
   border: 0px solid red;
   justify-content: center;
   text-align: center;
@@ -507,7 +491,6 @@ Table {
 }
 
 .stoOsiemImg {
-
   border: 0px solid red;
   justify-content: center;
   text-align: center;
@@ -518,7 +501,6 @@ Table {
 }
 
 .krzysiekImg {
-
   border: 0px solid red;
   justify-content: center;
   text-align: center;
@@ -528,12 +510,8 @@ Table {
   display: content;
 }
 
-
-
-
 .contactDown {
   padding-top: 5vh;
-  ;
 }
 
 .aboutOne {
@@ -567,7 +545,7 @@ Table {
   padding-left: 5px;
   width: 30%;
   text-align: left !important;
-  display: inline-block
+  display: inline-block;
 }
 
 .titlle {
@@ -577,7 +555,6 @@ Table {
   letter-spacing: 0.5px;
   padding-left: 10px;
   border: 0px solid #cccccc;
-
 }
 
 .img01 {
@@ -592,7 +569,6 @@ Table {
   border: 2px solid orange;
 }
 
-
 .textAboutMe {
   margin-bottom: 0px;
   font-size: 0.9em;
@@ -601,27 +577,34 @@ Table {
   color: #cccccc;
   width: 100%;
   text-align: left;
-
+}
+.textAboutMe2 {
+  margin-bottom: 0px;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  padding: 20px !important;
+  color: #cccccc;
+  width: 100%;
+  text-align: left;
 }
 
-.bor{
+.bor {
   border: 1px solid red;
 }
 
-.left{
-  justify-content:right !important;
+.left {
+  justify-content: right !important;
 }
-.textUp{
+.textUp {
   text-transform: uppercase;
 }
 
-.show{
+.show {
   display: flex;
 }
-.hidden{
+.hidden {
   display: none;
 }
-
 
 .pStack {
   padding-top: 20px;
@@ -638,6 +621,24 @@ Table {
   animation-duration: 2s;
   animation-timing-function: ease-in;
 }
+.cv {
+  box-shadow: 0 0 20px orange;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0px solid #ccc;
+  padding: 7px;
+  margin-bottom: 30px;
+  
+}
+.cvLink{
+  text-decoration: none;
+  color: white;
+},
+.cvLink:hover {
+  color: orange;
+  font-weight: 500;
+
+}
 
 .fullStack {
   color: #cccccc;
@@ -653,16 +654,13 @@ Table {
 .nav {
   color: #cccccc !important;
   position: sticky;
-
-
 }
-.left{
-  justify-content:center !important;
+.left {
+  justify-content: center !important;
 }
 
 .active {
   background-color: #282c34 !important;
-
 }
 
 .nav-link:active {
@@ -689,42 +687,50 @@ Table {
 p {
   margin-bottom: 0px;
   padding-top: 0px;
-
 }
 
 .getCenter {
   text-align: center;
 }
 
-
 .stackAboutMe {
   text-align: left !important;
   padding-top: 25px;
   width: 80%;
 }
-@media all and (max-width:1200px){
-  .date{
-    color:#282c34;
-  
-  margin-left: 0em;
+@media all and (max-width: 1200px) {
+  .date {
+    color: #282c34;
+
+    margin-left: 0em;
   }
 }
 @media all and (max-width: 600px) {
   .imgCarusel {
     width: 100%;
   }
+  .myItRoaH5 {
+    padding-top: 0.2em;
+    font-size: 12px;
+  }
+  .hidden {
+    display: none !important;
+  }
 
-.date{
-  color:#282c34;
-  margin-right: 0;
-  margin-left: 0em;
-}
+  .txtItRoad {
+    font-size: 12px !important;
+  }
+
+  .date {
+    color: #282c34;
+    margin-right: 0;
+    margin-left: 0em;
+  }
   .caruselTwo {
     text-align: left;
     width: 100%;
-
   }
-  .menuRight{
+  .menuRight {
     justify-content: center;
   }
 
@@ -759,8 +765,6 @@ p {
     padding-bottom: 30px !important;
     border: 0px solid #cccccc;
   }
-
-
 
   .App {
     padding-top: 0px !important;
@@ -802,7 +806,6 @@ p {
   .containerText {
     padding-left: 10px !important;
     padding-top: 0vh;
-
   }
 
   .heartBeat {
@@ -839,7 +842,14 @@ p {
     padding: 20px !important;
     text-align: left !important;
     margin-bottom: 20px;
-
+  }
+  .textAboutMe2 {
+    font-size: 0.75em;
+    border: 0px solid #cccccc;
+    border-radius: 10px;
+    padding: 0px !important;
+    text-align: left !important;
+    margin-bottom: 20px;
   }
 
   .img01 {
@@ -854,15 +864,11 @@ p {
   .containerTextContact {
     padding-left: 10px !important;
     padding-top: calc(1vh + 100px) !important;
-
   }
-
-
 
   .containerTextInsaid {
     padding-left: 10px !important;
     padding-top: calc(1vh + 100px) !important;
-
   }
 
   .about,
@@ -873,12 +879,10 @@ p {
     animation-name: null;
   }
 
-
   .img_stack_horizontal {
     height: 30px;
     margin: 10px;
     cursor: pointer;
-
   }
   .stoOsiemImg {
     border: 0px solid red;
@@ -898,7 +902,6 @@ p {
     height: 160px;
     display: content;
   }
-
 
   .bootImg {
     border: 0px solid red;
@@ -938,11 +941,9 @@ p {
     display: content;
   }
 
-
   .stackAboutMe {
     text-align: left !important;
     padding-top: 25px;
     width: 100%;
   }
-
 }

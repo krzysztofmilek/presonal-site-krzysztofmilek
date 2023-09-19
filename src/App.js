@@ -2,8 +2,8 @@ import "./App.css";
 import Social from "./components/Social";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
-import Expirance from "./components/Expirance";
 import Contact from "./components/Contact";
+import Expirance from "./components/Expirance";
 import React from "react";
 import { useRef, useState, useMemo, useEffect } from "react";
 import { Container } from "react-bootstrap";
@@ -11,6 +11,7 @@ import "animate.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import OverlayTrig from "./components/overLay/OverlayTrig";
+import { TypeAnimation } from 'react-type-animation';
 import {
   /* Fade, Bounce, Flip, JackInTheBox, Rotate, Slide, */ Zoom,
 } from "react-awesome-reveal";
@@ -26,6 +27,7 @@ function App() {
     const [entry] = entries;
     setIsVisible(entry.isIntersecting);
   };
+
   const options = useMemo(() => {
     return {
       threshold: 0.3,
@@ -39,6 +41,7 @@ function App() {
       if (currentTarget) observer.unobserve(currentTarget);
     };
   }, [targetRef, options]);
+
   return (
     <div className="App">
       <div id="home">
@@ -76,7 +79,6 @@ function App() {
               </span>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav" className="menuRight">
-           
                 {show ? (
                   <Nav className="pe-5">
                     <Nav.Link href="#home" className="about">
@@ -85,16 +87,16 @@ function App() {
                     <Nav.Link href="#about" className="about">
                       <span className="orange">01.</span> O mnie
                     </Nav.Link>
-                      <Nav.Link href="#itroad" className="course">
+                    <Nav.Link href="#itroad" className="course">
                       <span className="orange">02.</span> My IT Road{" "}
-                    </Nav.Link> 
+                    </Nav.Link>
                     <Nav.Link href="#education" className="course">
                       <span className="orange">03.</span> Edukacja{" "}
                     </Nav.Link>
                     <Nav.Link href="#projects" className="projects">
                       <span className="orange">04.</span> Projekty
                     </Nav.Link>
-               {/*      <Nav.Link href="#expirance" className="expirance">
+                    {/*      <Nav.Link href="#expirance" className="expirance">
                       <span className="orange">05.</span> Doświadczenie
                     </Nav.Link> */}
                     <Nav.Link href="#contact" className="contact">
@@ -109,16 +111,16 @@ function App() {
                     <Nav.Link href="#about" className="about">
                       <span className="orange">01.</span> About Me
                     </Nav.Link>
-                      <Nav.Link href="#itroad" className="course">
+                    <Nav.Link href="#itroad" className="course">
                       <span className="orange">02.</span> My IT Road{" "}
-                    </Nav.Link> 
+                    </Nav.Link>
                     <Nav.Link href="#education" className="course">
                       <span className="orange">03.</span> Education{" "}
                     </Nav.Link>
                     <Nav.Link href="#projects" className="projects">
                       <span className="orange">04.</span> Projects
                     </Nav.Link>
-                   {/*  <Nav.Link href="#expirance" className="expirance">
+                    {/*  <Nav.Link href="#expirance" className="expirance">
                       <span className="orange">05.</span> Expirance
                     </Nav.Link> */}
                     <Nav.Link href="#contact" className="contact">
@@ -140,7 +142,20 @@ function App() {
               </div>
               <div className="name containerText ">Krzysztof Miłek.</div>
               <div className="containerText fullStack">
-                FullStack MERN Developer, inżynier, fotograf, nurek.
+               
+                <TypeAnimation
+      sequence={[
+        'FullStack MERN Dev, inżynier, fotograf, nurek', // Types 'One'
+     2000,
+      
+      ]}
+      wrapper="span"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '0.9em', display: 'inline-block' }}
+      />
+     
+                {/* FullStack MERN Developer, inżynier, fotograf, nurek. */}
               </div>
 
               <p className="pStack">
@@ -179,8 +194,21 @@ function App() {
               <div className="name containerText ">Krzysztof Miłek.</div>
               <div className="containerText fullStack">
                 {" "}
-                I'm a FullStack MERN Developer, engineer, photographer, and
-                diver.
+                <TypeAnimation
+      sequence={[
+        "FullStack MERN Dev, engineer, photograph, diver", // Types 'One'
+     2000,
+      
+      ]}
+      wrapper="span"
+      cursor={true}
+      repeat={Infinity}
+      style={{  display: 'inline-block',
+       }}
+
+     
+      />
+                
               </div>
 
               <p className="pStack">
@@ -214,7 +242,7 @@ function App() {
       <ItRoad show={show} />
       <Education show={show} />
       <Projects show={show} />
-   {/*  <Expirance show={show} /> */}
+      <Expirance show={show} />
       <Contact show={show} />
     </div>
   );

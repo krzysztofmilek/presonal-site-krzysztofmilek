@@ -70,7 +70,7 @@ export default function Projects(props) {
                                     <p className="getCenter">
                                         <Button href="https://crudapp.kmilek.usermd.net/" variant="outline-light" size="sm" className='m-3'
                                         target="_blank" >WWW.CRUDAPP.K2WEBDEV.PL</Button><br />
-                                        <Button href="https://github.com/kmilek73/app_crud_frontend" variant="outline-light" size="sm" className='m-3'
+                                        <Button href="https://github.com/krzysztofmilek/react-simply-crud" variant="outline-light" size="sm" className='m-3'
                                             target="_blank" >GITHUB</Button>
                                     </p><br />
                                     <p className="getCenter stackText2">{props.show? "Stack Technologiczny":"Techmology Stack"}</p>
@@ -163,7 +163,7 @@ export default function Projects(props) {
                                     <p className="getCenter">
                                         <Button href="https://www.krzysztofmilek.pl/" variant="outline-light" size="sm" className='m-3'
                                         target="_blank" >WWW.KRZYSZTOFMILEK.PL</Button><br />
-                                        <Button href="https://github.com/kmilek73/main" variant="outline-light" size="sm" className='m-3'
+                                        <Button href="https://github.com/krzysztofmilek/presonal-site-krzysztofmilek" variant="outline-light" size="sm" className='m-3'
                                             target="_blank" >GITHUB</Button>
                                     </p><br />
                                     <p className="getCenter stackText2">{props.show? "Stack Technologiczny":"Techmology Stack"}</p>

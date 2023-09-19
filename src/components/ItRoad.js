@@ -57,7 +57,7 @@ export default function ItRoad(props) {
               </div>
             </Zoom>
           </div>
-          <div className="textAboutMe">
+          <div className="textAboutMe hidden">
             <p>GITHUB STATISTIC</p>
 
             <img
@@ -71,7 +71,7 @@ export default function ItRoad(props) {
               width="38%"
             />
           </div>
-          <div className="textAboutMe" >
+          <div className="textAboutMe2" >
             <VerticalTimeline  lineColor={ 'orange'}  >
               {     
               data.map((element) => {
@@ -83,11 +83,11 @@ export default function ItRoad(props) {
                 return (
                   <VerticalTimelineElement
                   contentStyle={{ background: '#282c34' , color: '#ccc' }} 
-                  className="myItRoadBody"
+                  className="myItRoadBody txtItRoad"
                     key={element.key}
                     date={element.date}
                     dateClassName="date"
-                    iconStyle={isWorkIcon ? worksIconStyles : schoolIconStyles}
+                    iconStyle={isWorkIcon ? worksIconStyles : schoolIconStyles} 
                     icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
                   >
                     <h3 className="vertical-timeline-element-title myItRoaH3">
@@ -96,7 +96,7 @@ export default function ItRoad(props) {
                     <h5 className="vertical-timeline-element-subtitle myItRoaH5">
                       {element.location}
                     </h5>
-                    <p id="description" className="myItRoaDescription">{element.description}</p>
+                    <p id="description" className="myItRoaDescription txtItRoad">{element.description}</p>
                     { showButton &&< a  href={`http://${element.buttonText} `}  className={`button ${isWorkIcon? "workButton" : "schoolButton"}`}>{element.buttonText}</a>}
                   </VerticalTimelineElement>
                 );

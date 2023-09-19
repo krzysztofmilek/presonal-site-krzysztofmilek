@@ -1,6 +1,7 @@
 import React from "react";
 import img01 from "../img/img01111.jpg";
 import { Container } from "react-bootstrap";
+
 import {
   /* Fade, Bounce, Flip, JackInTheBox, Rotate, Slide, */ Zoom,
 } from "react-awesome-reveal";
@@ -30,30 +31,32 @@ export default function AboutMe(props) {
               <span>
                 {" "}
                 <img className="img01" src={img01} alt="" /><p>Cześć, mam na imię Krzysiek</p><br />
-                <p className="text-justified"> Jestem inżynierem o profilu informatyczno-ekonometrycznym z pasją do  nurkowania. 
-                <br />Moja edukacja obejmuje podyplomowe studia na SGH "Manager Motoryzacji", 
-                a także uzyskanie stopnia nurkowego Dive Master i nurka technicznego.
-                <br /> Interesuję się literaturą Stephen Kinga i Clive'a Cusslera, a w muzyce przewijają się takie zespoły jak The Rolling Stones, 
-                Alice in Chains, Kabe Mo, Pink Floyd i Dżem. <br />
+                <p className="text-justified akapit"> Jestem inżynierem o profilu informatyczno-ekonometrycznym oraz pasjonatą świata podwodnego.
+                W bieżącym roku ukończyłem bootcamp Full Stack MERN Developer oraz kilkanaście kursów głównie w zakresie React, Node, Express, MongoDB.<br />
+Jestem absolwentem studów podyplomowych w SGH w Warszawie w zakresie zarządzania w sektorze motoryzacyjnym. <br />
+Nieustannie rozwijam swoją ścieżkę nurkowania technicznego oraz kwalifikowanego przewodnika grup nurkowych (Dive Master).<br />
+Wieczorami czytuję Stephana Kinga czy Clive'a Cusslera, a cisze i relaks znajduję w muzyce <br />
 </p><br />
-<p><b>Umiejętności i cechy osobiste</b></p>
-<p className="text-justified">Hobby, takie jak modelarstwo i gra na instrumencie, nauczyły mnie cierpliwości w osiąganiu celów oraz czerpania radości z nagrody odroczonej w czasie.
-Nurkowanie wpłynęło na moją odpowiedzialność, ścisłe przestrzeganie procedur, weryfikację umiejętności oraz permanentną analizę błędów,
- które staram się eliminować poprzez ćwiczenia<br /><br />
-Te cechy kształtują moją wręcz obsesyjną potrzebę rozwiązywania problemów, zarówno w implementacji logiki systemów, jak i w codziennych sytuacjach. 
-Podchodzę do każdego problemu analitycznie i metodycznie. Dla mnie każdy problem rozwiązany, przeanalizowany i zaimplementowany stanowi cenne  doświadczenie.
-</p>
+
+<br />
+<p className="text-justified">
+<b>Przebranżowienie?</b>
+<br />
+<p className="text-justified akapit"> Po ukończeniu studiów przez 7 lat pracowałem jako informatyk, administrator serwerów oraz wdrożeniowiec usług marketingowych w AMICAR. <br />
+Świetnie rozumiejąc branże i mechanizmy sprzedażowe, skorzystałem z możliwości rozwoju w zakresie zarządzania sprzedażą bezpośrednią co 
+ówcześnie dawało mi klarowną perspektywę rozwoju a także nabycie bezcennych umiejętności współpracy z Klientem.<br />
+Obecnie, zmiany na rynku stały się impulsem do głębszych refleksji nad ścieżką kariery zawodowej i - w oczywisty sposób - powrotem do moich korzeni.<br /><br /></p>
+<p className="text-justified akapit">
+Wybór ścieżki Full Stack MERN pozwala mi nie tylko programować na różnych płaszczyznach czy też dostarczać efektywne rozwiązania na czas, 
+ale także poszerza zakres moich umiejętności. Mam wiele do zaoferowania w tej dziedzinie. Determinacja, pasja do nauki oraz do 
+ciągłego doskonalenia stanowią klucz do przygotowania się na wyzwania, jakie przyniesie mi przyszłość.</p>
 <br /><br />
-<p><b>Przebranżowienie? </b></p>
-<p className="text-justified">Moja edukacja kierowała się w kierunku zarządzania serwerami oraz tworzeniem aplikacji i witryn wwww.< br /> Po skończeniu studiów znalazłem pracę zgodną z moim wykształceniem.
- Jednak zostałem kierownikiem sprzedaży w wyniku tzw. życiowych okazji, które w tamtym momencie wydawały mi się bardziej perspektywiczne. <br />
- Obecne zmiany na rynku motoryzacyjnym stały się impulsem do głębszych refleksji nad moją ścieżką zawodową i w oczywisty sposób powrotem  do moich wcześniejszych pasji i
-  obszaru zainteresowań.</p>
- <br /> 
-Wybór ścieżki Full Stack MERN pozwala mi nie tylko na programowaĆ na różnych płaszczyznach czy też dostarczać szybciej efektywne rozwiązania, ale także na poszerzenie 
-zakresu moich umiejętności.
-Nadal wierzę, że mam wiele do zaoferowania. Moja determinacja, pasja do nauki oraz do ciągłego doskonalenia moich umiejętności stanowią klucz do przygotowania się na wyzwania, 
-jakie przyniesie mi  przyszłość.
+<p className="text-justified akapit">
+Moje zainteresowania nauczyły mnie cierpliwości w osiąganiu celów oraz czerpania radości z nagrody odroczonej w czasie. 
+Nurkowanie wpłynęło na moją odpowiedzialność, ścisłe przestrzeganie procedur, weryfikację umiejętności, analizę błędów i regularne ćwiczenia.<br /> <br />
+
+Te cechy kształtują moją potrzebę rozwiązywania problemów, zarówno w implementacji logiki systemów, jak i w codziennych sytuacjach. Analityczny umysł, metodyka oraz konsekwencja w działaniu stały się moim kluczem do sukcesu.</p>
+</p>
 
               </span>
             ) : (
@@ -62,21 +65,27 @@ jakie przyniesie mi  przyszłość.
                 <img className="img01" src={img01} alt="" />
                 <p>Hi!&nbsp;My name is Krzysiek, I'm from Poland.</p>
                 <br />
-                <p className="text-justified">I'm an engineer with a background in computer science and econometrics, and a passion for diving. My education includes postgraduate studies in "Automotive Management" at SGH, as well as achieving the Dive Master and technical diving certifications. I have a keen interest in literature, 
-                particularly Stephen King and Clive Cussler, and my music preferences range from The Rolling Stones and Alice in Chains to Keb' Mo', Pink Floyd, and Dżem. <br />
+                <p className="text-justified akapit"> I am an engineer with a background in computer science and econometrics, as well as a passionate diver.
+This year, I completed the Full Stack MERN Developer bootcamp and several courses mainly focused on React, Node, Express, and MongoDB.<br />
+I am a graduate of postgraduate studies at SGH in Warsaw in the field of management in the automotive sector. <br />
+I am constantly developing my technical and qualified diving skills as a Dive Master guide for diving groups.<br />
+In the evenings, I enjoy reading Stephen King or Clive Cussler, and I find peace and relaxation in music. <br />
 </p><br />
-<p><b>Skills and Personal Qualities</b></p>
-<p className="text-justified">My hobbies, such as modeling and playing a musical instrument, have taught me patience in achieving goals and finding joy in delayed rewards. Scuba diving has instilled in me a sense of responsibility, strict adherence to procedures, skill verification, and ongoing error analysis, which I strive to eliminate through practice.
-<br /> These qualities shape my almost obsessive need to solve problems, both in implementing system logic and in everyday situations. I approach every problem analytically and methodically. For me, every problem solved, analyzed, and implemented represents valuable experience.
-</p>
-<br /><br />
-<p><b>Career Transition? </b></p>
-<p className="text-justified">
 
- My education led me towards server management and web application development. After completing my studies, I found a job that aligned with my education. However, I became a sales manager due to what could be described as "life opportunities" that seemed more promising at that time. Recent changes in the automotive market have prompted deeper reflection on my career path, leading me back to my previous passions and areas of interest.
- <br /> 
-Choosing the Full Stack MERN path not only allows me to programming on various levels and deliver efficient solutions more quickly but also broadens my skill set. I still believe that I have a lot to offer. My determination, passion for learning, and continuous improvement of my skills are the keys to preparing for the challenges the future holds..
-    </p>          </span>
+<br />
+<p className="text-justified">
+<b>Change of industry...?</b>
+<br />
+<p className="text-justified akapit"> After completing my studies, I worked as an IT specialist, server administrator, and marketing services implementer at AMICAR for 7 years. <br />
+With a deep understanding of the industry and sales mechanisms, I took the opportunity to develop my skills in direct sales management, which at that time provided me with a clear career perspective and invaluable customer collaboration skills.<br />
+Currently, changes in the market have prompted me to reflect more deeply on my career path and, quite naturally, to return to my roots.<br /><br /></p>
+<p className="text-justified akapit">
+Choosing the Full Stack MERN path not only allows me to program on various levels and deliver effective solutions on time but also broadens the scope of my skills. I have a lot to offer in this field. Determination, a passion for learning, and a commitment to continuous improvement are the keys to preparing for the challenges that the future will bring.
+
+My interests have taught me patience in achieving goals and finding joy in delayed rewards. Diving has influenced my sense of responsibility, strict adherence to procedures, skill verification, error analysis, and regular practice.<br /><br />
+
+These qualities shape my need to solve problems, both in implementing system logic and in everyday situations. An analytical mind, methodology, and consistency in action have become my keys to success.</p>
+                </p></span>
             )}
 
             <Container className="stackAboutMe">
