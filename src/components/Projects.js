@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Button, Table, Carousel } from "react-bootstrap";
 import "animate.css";
 import { Zoom } from "react-awesome-reveal";
-import { TypeAnimation } from "react-type-animation";
+
 
 export default function Projects(props) {
   return (
