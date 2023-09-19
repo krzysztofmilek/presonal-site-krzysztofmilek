@@ -39,7 +39,7 @@ export default function Projects(props) {
                   </Button>
                   <br />
                   <Button
-                    href="https://github.com/kmilek73/PatrycjaSzindler"
+                    href="https://github.com/krzysztofmilek/07_autht_mern"
                     variant="outline-light"
                     size="sm"
                     className="m-3"
