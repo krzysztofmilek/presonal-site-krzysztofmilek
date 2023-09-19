@@ -397,6 +397,10 @@ hr {
 
 .aboutMe {
   display: flex;
+ 
+}
+.centerMop{
+  text-align: center;
 }
 
 Table,
@@ -459,6 +463,29 @@ Table {
   width: 600px;
   height: 339px;
   display: content;
+}
+
+.flexImg{
+/*   display: block;
+  border: 0px solid yellow;
+  justify-content: center; */
+  text-align: justify;
+ 
+}
+
+.crmImg {
+  border: 0px solid red;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./img/CRMCAR.png) ;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 452px;
+
+}
+.mainBox{
+  width:100%;
+  margin: 10px;
 }
 
 .bootImg {
@@ -577,6 +604,7 @@ Table {
   color: #cccccc;
   width: 100%;
   text-align: left;
+  border: 0px solid red;
 }
 .textAboutMe2 {
   margin-bottom: 0px;
@@ -691,6 +719,7 @@ p {
 
 .getCenter {
   text-align: center;
+ 
 }
 
 .stackAboutMe {
@@ -911,6 +940,12 @@ p {
     width: 230px;
     height: 160px;
     display: content;
+  }
+  .crmImg {
+    background-image: url(./img/CRMCARsmall.png);
+    width: 230px;
+    height: 151px;
+ 
   }
 
   .patrycjaImg {
